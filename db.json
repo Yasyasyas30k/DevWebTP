@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin1@gmail.com",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "student@gmail.com",
+      "password": "1234",
+      "role": "student"
+    },
+    {
+      "id": 3,
+      "email": "admin2@gmail.com",
+      "password": "caca",
+      "role": "admin"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Histoire",
+      "date": "12-09-2023"
+    },
+    {
+      "id": 2,
+      "title": "Devweb",
+      "date": "13-09-2023"
+    },
+    {
+      "id": 3,
+      "title": "Securite",
+      "date": "13-09-2023"
+    }
+  ],
+  "students_courses": [
+    {
+      "student_id": 2,
+      "course_id": 1,
+      "registeredAt": "2023-11-23T23:15:34.296Z",
+      "signedAt": "2023-11-23T21:16:52.460Z"
+    },
+    {
+      "student_id": 2,
+      "course_id": 2,
+      "registeredAt": "2023-11-21T22:06:06.460Z",
+      "signedAt": null
+    }
+  ]
+}

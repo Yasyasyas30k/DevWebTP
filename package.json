@@ -1,0 +1,27 @@
+{
+  "name": "mini-api-person",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "lowdb": "^6.0.1",
+    "luxon": "^3.4.4",
+    "ts-node": "^10.9.1",
+    "yup": "^1.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.18",
+    "@types/lowdb": "^1.0.12",
+    "nodemon": "^3.0.1"
+  }
+}
